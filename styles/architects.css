@@ -209,6 +209,25 @@ main>section{
     filter: grayscale(100%);
 }
 
+footer{
+    width: 100%;
+    background-color: #FFF4E7;
+    /* padding: 39px 420px; */
+}
+
+.footer-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.footer-text{
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 39px 420px;
+}
+
 /* responsive media query */
 @media screen and (max-width:576px){
     .navbar, .nav-links, .teams,
